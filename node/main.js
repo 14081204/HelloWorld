@@ -1,5 +1,4 @@
 // TypeScript file  
-var cs = 0;
 function pyramid(x) {
     var s = "";
     for (var b = 1; b <= x; b++) {
