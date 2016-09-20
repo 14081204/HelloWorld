@@ -1,4 +1,5 @@
 // TypeScript file  
+var cs : number = 0;
 function pyramid (x:number):void{
     var s : string = "";
     for(var b : number = 1; b <= x; b++){
@@ -12,5 +13,8 @@ function pyramid (x:number):void{
         console.log(s);
     }
 }
-var y : number = 5;
-pyramid(y);
+
+//var y : number = 5;
+//pyramid(y);
+var cengshu : number = process.argv[2];
+pyramid(cengshu);
